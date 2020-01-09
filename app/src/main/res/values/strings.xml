@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppLinks</string>
+    <string name="button_text">Push</string>
+    <string name="map_text">Map</string>
+    <string name="city1">City1</string>
+    <string name="city2">City2</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="search_text">Search</string>
+</resources>

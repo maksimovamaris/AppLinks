@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catalog"
+        android:textSize="@dimen/text_size"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="@dimen/margin"/>
+    <EditText
+        android:id="@+id/catalog_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link"
+        android:layout_margin="@dimen/margin"/>
+    <Button
+        android:id="@+id/catalog_search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/button_text"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+    <ListView
+        android:id="@+id/catalog_listView_1"
+        android:layout_width="150dp"
+        android:layout_height="329dp"
+        android:layout_margin="@dimen/margin">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/catalog_listView_2"
+        android:layout_width="150dp"
+        android:layout_height="329dp"
+        android:layout_margin="@dimen/margin">
+
+    </ListView>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
